@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 // Test ID: IIDSAT
 
 import OrderItem from './OrderItem';
@@ -22,7 +23,6 @@ function Order() {
     cart,
   } = order;
   const deliveryIn = calcMinutesLeft(estimatedDelivery);
-  console.log(order);
 
   return (
     <div className="space-y-8 px-4 py-6">
